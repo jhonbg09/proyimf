@@ -1,13 +1,11 @@
-import Sidebar from '@/components/Sidebar'
-import React from 'react'
+"use client"
 
 export default function productsPage() {
-
-    console.log("desde el servidor")
+  console.log("desde productsPage");
   return (
     <div>
-        <Sidebar/>
-        <p>Hola desde page con esta nueva ruta </p>
+      
+      <p>Hola desde page con esta nueva ruta </p>
     </div>
-  )
+  );
 }
