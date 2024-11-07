@@ -1,6 +1,6 @@
 export const categories = [
     {
-        slug: "Pastillas",
+        slug: "pastillas",
         name: "Pastillas"
       },
       {
@@ -21,6 +21,6 @@ export const categories = [
       },
       {
         slug: "mangeras",
-        name: "mangueras"
+        name: "Mangueras"
       }
 ]

@@ -18,3 +18,13 @@ async function main() {
 }
 
 /* este archivo se debe llamar en el package.json */
+
+main()
+.then(async()=>{
+    await prisma.$disconnect()
+    .catch( async(e) =>{
+        console.error(e)
+        await prisma.$disconnect()
+        process.exit(1)
+    })
+})
